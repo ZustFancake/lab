@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head><title>캔버스</title></head>
+<body style="margin:0;">
+    <canvas id="myCanvas" width="200" height="100"></canvas>
+    <script>
+        const canvas = document.getElementById('myCanvas');
+        const ctx = canvas.getContext('2d');
+        ctx.fillStyle = 'green';
+        ctx.fillRect(10, 10, 150, 80);
+    </script>
+</body>
+</html>
